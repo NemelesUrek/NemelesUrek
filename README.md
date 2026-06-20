@@ -8,9 +8,9 @@ I architect, integrate and ship software fast by directing AI — and I own ever
 ### 🔥 What that looks like in practice
 I designed and shipped a **30-module Java/Maven backend (~20.6k LOC) in ~20 days** — a GTA-style Minecraft RP server with:
 - a **ports-and-adapters core** (28 feature plugins depend on contracts, not impl),
-- a **concurrency-correct dual-currency bank** (per-account locks, money in cents, transactional rollback, forensic "marked money"),
+- a **concurrency-correct dual-currency bank** (per-account locks, money in cents, transactional rollback, forensic 'marked money'),
 - **NPCs driven by a local LLM** (Ollama) with persistent memory, affinity and **cloned-voice TTS**,
-- **true Java ⇄ Bedrock crossplay** for 3D weapons & vehicles (reflection soft-deps, Geyser/Floodgate, a from-scratch Pillow 3D rasterizer).
+- **true Java ⇄ Bedrock crossplay** for 3D models & vehicles (reflection soft-deps, Geyser/Floodgate).
 
 👉 **Showcase repo (code & full write-up): [nemeles-rp-showcase](https://github.com/NemelesUrek/nemeles-rp-showcase)**
 
