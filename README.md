@@ -17,6 +17,9 @@ I designed and shipped a **30-module Java/Maven backend (~20.6k LOC) in ~20 days
 ### 🧰 Toolbox
 `Java 17` · `Maven` · `Bukkit/Paper` · `HikariCP` · `SQLite/MySQL` · `CompletableFuture` concurrency · `java.net.http` · `Python` · `PowerShell` · LLM integration (`Ollama`) · reflection-based soft-dependencies · cross-engine integration
 
+### 🔐 Also: hands-on security systems
+High-level expertise in **CCTV, alarms and biometric access control** — including **remote configuration & support with Hikvision iVMS-4200 & HikCentral**. The rare combo: I understand the security hardware *and* I can program it — custom dashboards, attendance exports, and API/webhook integrations no installer can offer.
+
 ### 🎯 What I'm looking for
 Remote **backend / systems-integration / Java** roles or freelance plugin work. I learn new stacks fast and I ship.
 
