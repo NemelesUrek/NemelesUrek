@@ -14,6 +14,8 @@ I designed and shipped a **30-module Java/Maven backend (~20.6k LOC) in ~20 days
 
 👉 **Showcase repo (code & full write-up): [nemeles-rp-showcase](https://github.com/NemelesUrek/nemeles-rp-showcase)**
 
+📱 I also built **NemelesPhone** — a proprietary in-game smartphone plugin (apps, Java ⇄ Bedrock crossplay UIs, OpenAudioMc voice), **available for licensing to Minecraft servers**.
+
 ### 🧰 Toolbox
 `Java 17` · `Maven` · `Bukkit/Paper` · `HikariCP` · `SQLite/MySQL` · `CompletableFuture` concurrency · `java.net.http` · `Python` · `PowerShell` · LLM integration (`Ollama`) · reflection-based soft-dependencies · cross-engine integration
 
