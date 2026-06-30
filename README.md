@@ -5,6 +5,10 @@
 
 I architect, integrate and ship software fast by directing AI — and I own every architectural decision, integration and debugging session end to end. My edge isn't typing speed; it's **decomposing fuzzy domains into clean systems and delivering at unusual velocity.**
 
+### 💼 Live projects you can click right now
+- 🌐 **Wedding invitation website** — responsive single-page site with **4 live color palettes + light/dark mode** (persisted), RSVP form, countdown and anti-copy watermark. Pure HTML/CSS/JS + Bootstrap. → **[Live demo](https://nemelesurek.github.io/invitacion-boda-demo/)** · [code](https://github.com/NemelesUrek/invitacion-boda-demo)
+- 📦 **Stockly** — inventory **REST API in Java + Spring Boot**, shipped to production (role-based access, security hardening, CI/CD). → [code](https://github.com/NemelesUrek/inventario-api)
+
 ### 🔥 What that looks like in practice
 I designed and shipped a **30-module Java/Maven backend (~20.6k LOC) in ~20 days** — a GTA-style Minecraft RP server with:
 - a **ports-and-adapters core** (28 feature plugins depend on contracts, not impl),
