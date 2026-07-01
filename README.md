@@ -1,35 +1,108 @@
-# Hi, I'm Nemeles 👋
+# Nemeles 🚀
 
-**AI-leveraged backend builder · Java · systems integration · remote-first.**
-📍 Jilotepec, México (UTC−6) · 🌐 Open to remote roles & freelance worldwide.
+**Developer Backend Java + Spring Boot | REST APIs | Frontend Web | Inventory Systems**
 
-I architect, integrate and ship software fast by directing AI — and I own every architectural decision, integration and debugging session end to end. My edge isn't typing speed; it's **decomposing fuzzy domains into clean systems and delivering at unusual velocity.**
+Desarrollador independiente enfocado en **soluciones escalables** con Java, Spring Boot y frontend moderno. Especializado en APIs REST, bases de datos SQL, y aplicaciones de escritorio multiplataforma.
 
-### 💼 Live projects you can click right now
-- 🌐 **Wedding invitation website** — responsive single-page site with **4 live color palettes + light/dark mode** (persisted), RSVP form, countdown and anti-copy watermark. Pure HTML/CSS/JS + Bootstrap. → **[Live demo](https://nemelesurek.github.io/invitacion-boda-demo/)** · [code](https://github.com/NemelesUrek/invitacion-boda-demo)
-- 📦 **Stockly** — inventory **REST API in Java + Spring Boot**, shipped to production (role-based access, security hardening, CI/CD). → [code](https://github.com/NemelesUrek/inventario-api)
+---
 
-### 🔥 What that looks like in practice
-I designed and shipped a **30-module Java/Maven backend (~20.6k LOC) in ~20 days** — a GTA-style Minecraft RP server with:
-- a **ports-and-adapters core** (28 feature plugins depend on contracts, not impl),
-- a **concurrency-correct dual-currency bank** (per-account locks, money in cents, transactional rollback, forensic 'marked money'),
-- **NPCs driven by a local LLM** (Ollama) with persistent memory, affinity and **cloned-voice TTS**,
-- **true Java ⇄ Bedrock crossplay** for 3D models & vehicles (reflection soft-deps, Geyser/Floodgate).
+## 📌 Proyectos destacados
 
-👉 **Showcase repo (code & full write-up): [nemeles-rp-showcase](https://github.com/NemelesUrek/nemeles-rp-showcase)**
+### 1. **NemelesInv** — Panel de inventario multicanal
+![GitHub](https://img.shields.io/badge/Repo-NemelesUrek%2Fnemelesiny--demo-blue?logo=github)
+![Live](https://img.shields.io/badge/Live-GitHub%20Pages-brightgreen)
 
-📱 I also built **NemelesPhone** — a proprietary in-game smartphone plugin (apps, Java ⇄ Bedrock crossplay UIs, OpenAudioMc voice), **available for licensing to Minecraft servers**.
+**Landing page + Dashboard de inventario en vivo:**
+- 📊 Panel de control con KPIs, gráficos, tablas dinámicas
+- 💳 Módulo de facturación (comprobantes reales, descarga PDF)
+- 👥 Login con roles (admin/gerente/almacén/ventas)
+- 💱 Multi-moneda en vivo (MXN/USD/EUR/COP/GBP)
+- 🌗 Modo claro/oscuro
+- 📱 100% responsivo
 
-### 🧰 Toolbox
-`Java 17` · `Maven` · `Bukkit/Paper` · `HikariCP` · `SQLite/MySQL` · `CompletableFuture` concurrency · `java.net.http` · `Python` · `PowerShell` · LLM integration (`Ollama`) · reflection-based soft-dependencies · cross-engine integration
+**Tech:** HTML5, CSS3, JavaScript (Vanilla), Bootstrap 5, Chart.js, Moment.js, LocalStorage
 
-### 🔐 Also: hands-on security systems
-High-level expertise in **CCTV, alarms and biometric access control** — including **remote configuration & support with Hikvision iVMS-4200 & HikCentral**. The rare combo: I understand the security hardware *and* I can program it — custom dashboards, attendance exports, and API/webhook integrations no installer can offer.
+🔗 **Demo en vivo:** https://nemelesurek.github.io/nemelesinv-demo/
 
-### 🎯 What I'm looking for
-Remote **backend / systems-integration / Java** roles or freelance plugin work. I learn new stacks fast and I ship.
+---
 
-### 📫 Reach me
-📧 emuiser1@gmail.com · 💬 English B1 (improving daily) · Spanish (native)
+### 2. **Invitación de boda** — Landing interactivo
+![GitHub](https://img.shields.io/badge/Repo-NemelesUrek%2Finvitacion--boda--demo-blue?logo=github)
+![Live](https://img.shields.io/badge/Live-GitHub%20Pages-brightgreen)
 
-> **How I work, honestly:** I'm an AI-leveraged developer — I direct AI to write code, and I provide the architecture, the integration glue, the debugging and the judgment. The result is real, working software shipped at high speed.
+**Sitio completo de invitación de boda (archivo único, sin dependencias externas):**
+- 🎨 4 paletas intercambiables en vivo (Salvia, Blush, Marino, Mocha)
+- ⏳ Contador regresivo al día de la boda
+- 📝 Formulario RSVP interactivo
+- 6️⃣ Secciones: Invitación, Historia, Código de etiqueta, Confirmación, Itinerario, Información
+- 🌗 Modo claro/oscuro persistente
+- 📱 Responsive, SVG/CSS puro
+
+**Tech:** HTML5, CSS3, JavaScript, Bootstrap 5, Google Fonts
+
+🔗 **Demo en vivo:** https://nemelesurek.github.io/invitacion-boda-demo/
+
+---
+
+### 3. **Sistema de Inventario API** — Backend Spring Boot
+![GitHub](https://img.shields.io/badge/Repo-NemelesUrek%2Finventario--api-blue?logo=github)
+![Live](https://img.shields.io/badge/Live-Render-informational)
+
+**Backend robusto de gestión de inventario (producción):**
+- 🔌 API REST completamente documentada (Swagger UI)
+- 🔐 Autenticación con JWT
+- 👤 Gestión de roles y permisos
+- 📦 CRUD de productos, categorías, stock, proveedores
+- 📊 Reportes y alertas
+- 🗄️ Base de datos SQL (PostgreSQL)
+- 🚀 CI/CD con GitHub Actions
+- 🛡️ Seguridad verificada (auditoría de dependencias, OWASP top 10)
+
+**Tech:** Java 17, Spring Boot 3.x, Spring Security, JPA/Hibernate, PostgreSQL, Gradle, Docker
+
+🔗 **Repo:** https://github.com/NemelesUrek/inventario-api  
+🔗 **API en vivo:** https://inventario-api.onrender.com/swagger-ui/index.html
+
+---
+
+## 🛠️ Stack tecnológico
+
+| Frontend | Backend | Base de datos | DevOps | Herramientas |
+|----------|---------|---------------|--------|--------------|
+| HTML5, CSS3, JS | Java 17, Spring Boot | PostgreSQL, SQLite | Docker, GitHub Actions | Git, Maven, Gradle |
+| Bootstrap, React | Spring Security, JPA | Render | Linux | VS Code, IntelliJ IDEA |
+| Responsive Design | REST APIs, JWT | Migrations | CI/CD | Postman, Swagger |
+
+---
+
+## 💼 Sobre mí
+
+- 🎓 Experiencia: Backend Java/Spring Boot, APIs REST, Bases de datos SQL
+- 🌐 Multilingüe: JavaScript, HTML/CSS, SQL, Bash
+- 🚀 Mentalidad: Código limpio, testing, documentación, seguridad first
+- 📍 Ubicación: México
+- ✉️ Contacto: [LinkedIn](https://www.linkedin.com/in/emuiser-ponce-mayorga-252991137/)
+
+---
+
+## 📈 Últimas actualizaciones
+
+- **Jun 2026:** Landing de invitación de boda en vivo + panel de inventario multicanal
+- **Jun 2026:** API de inventario en producción con seguridad verificada
+- **Jun 2026:** Perfil LinkedIn actualizado con proyectos destacados
+
+---
+
+**¿Necesitas una solución personalizada?**  
+Disponible para:
+- ✅ Desarrollo de APIs REST en Spring Boot
+- ✅ Dashboards web interactivos
+- ✅ Sistemas de inventario / gestión
+- ✅ Landing pages responsivas
+- ✅ Auditoría de seguridad en aplicaciones
+
+💌 **Contacto:** emuiser1@gmail.com
+
+---
+
+**Licencia:** MIT | **Últimas actualizaciones:** junio 2026
