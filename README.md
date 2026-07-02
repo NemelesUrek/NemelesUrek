@@ -9,7 +9,7 @@ Desarrollador independiente enfocado en **soluciones escalables** con Java, Spri
 ## 📌 Proyectos destacados
 
 ### 1. **NemelesInv** — Panel de inventario multicanal
-![GitHub](https://img.shields.io/badge/Repo-NemelesUrek%2Fnemelesiny--demo-blue?logo=github)
+![GitHub](https://img.shields.io/badge/Repo-NemelesUrek%2Fnemelesinv--demo-blue?logo=github)
 ![Live](https://img.shields.io/badge/Live-GitHub%20Pages-brightgreen)
 
 **Landing page + Dashboard de inventario en vivo:**
@@ -20,7 +20,7 @@ Desarrollador independiente enfocado en **soluciones escalables** con Java, Spri
 - 🌗 Modo claro/oscuro
 - 📱 100% responsivo
 
-**Tech:** HTML5, CSS3, JavaScript (Vanilla), Bootstrap 5, Chart.js, Moment.js, LocalStorage
+**Tech:** HTML5, CSS3, JavaScript (Vanilla, sin librerías externas), gráficos propios, LocalStorage
 
 🔗 **Demo en vivo:** https://nemelesurek.github.io/nemelesinv-demo/
 
@@ -38,7 +38,7 @@ Desarrollador independiente enfocado en **soluciones escalables** con Java, Spri
 - 🌗 Modo claro/oscuro persistente
 - 📱 Responsive, SVG/CSS puro
 
-**Tech:** HTML5, CSS3, JavaScript, Bootstrap 5, Google Fonts
+**Tech:** HTML5, CSS3, JavaScript (Vanilla), Google Fonts
 
 🔗 **Demo en vivo:** https://nemelesurek.github.io/invitacion-boda-demo/
 
@@ -48,20 +48,19 @@ Desarrollador independiente enfocado en **soluciones escalables** con Java, Spri
 ![GitHub](https://img.shields.io/badge/Repo-NemelesUrek%2Finventario--api-blue?logo=github)
 ![Live](https://img.shields.io/badge/Live-Render-informational)
 
-**Backend robusto de gestión de inventario (producción):**
+**Backend de gestión de inventario desplegado en producción:**
 - 🔌 API REST completamente documentada (Swagger UI)
-- 🔐 Autenticación con JWT
-- 👤 Gestión de roles y permisos
-- 📦 CRUD de productos, categorías, stock, proveedores
-- 📊 Reportes y alertas
-- 🗄️ Base de datos SQL (PostgreSQL)
-- 🚀 CI/CD con GitHub Actions
-- 🛡️ Seguridad verificada (auditoría de dependencias, OWASP top 10)
+- 📦 CRUD de productos, categorías, stock y movimientos
+- 🗄️ Base de datos SQL con JPA/Hibernate (H2 en la demo; portable a PostgreSQL/MySQL)
+- ✅ Tests de integración (MockMvc) corriendo en CI
+- 🚀 CI/CD con GitHub Actions + despliegue en Render
+- 🔐 Login con roles (RBAC), protección anti fuerza bruta y proveedores/adjuntos — rama `security/hardening`, endurecida con pruebas de ataque (CI verde)
+- 🧾 Facturación electrónica CFDI 4.0 (México) — rama `feature/efactura`, en desarrollo
 
-**Tech:** Java 17, Spring Boot 3.x, Spring Security, JPA/Hibernate, PostgreSQL, Gradle, Docker
+**Tech:** Java 17, Spring Boot 3.x, JPA/Hibernate, SQL, Maven, Docker, GitHub Actions
 
 🔗 **Repo:** https://github.com/NemelesUrek/inventario-api  
-🔗 **API en vivo:** https://inventario-api.onrender.com/swagger-ui/index.html
+🔗 **API en vivo:** https://inventario-api-h6b3.onrender.com/swagger-ui/index.html *(plan gratuito: el primer arranque tarda ~30-50 s)*
 
 ---
 
@@ -69,9 +68,9 @@ Desarrollador independiente enfocado en **soluciones escalables** con Java, Spri
 
 | Frontend | Backend | Base de datos | DevOps | Herramientas |
 |----------|---------|---------------|--------|--------------|
-| HTML5, CSS3, JS | Java 17, Spring Boot | PostgreSQL, SQLite | Docker, GitHub Actions | Git, Maven, Gradle |
-| Bootstrap, React | Spring Security, JPA | Render | Linux | VS Code, IntelliJ IDEA |
-| Responsive Design | REST APIs, JWT | Migrations | CI/CD | Postman, Swagger |
+| HTML5, CSS3, JS | Java 17, Spring Boot | H2, PostgreSQL | Docker, GitHub Actions | Git, Maven |
+| Bootstrap 5 | Spring Security, JPA | SQLite | Render, Linux | VS Code, IntelliJ IDEA |
+| Responsive Design | REST APIs, RBAC | Migrations | CI/CD | Postman, Swagger |
 
 ---
 
